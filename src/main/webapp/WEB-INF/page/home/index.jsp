@@ -5,10 +5,12 @@
   Time: 09:31
   To change this template use File | Settings | File Templates.
 --%>
+
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
+<%@include file="../global/init.jsp" %>
 <html>
 <head>
-    <%@include file="../header/includes.jsp" %>
+    <%@include file="../global/includes.jsp" %>
 
     <title>Danuta Bręk - Tłumacz Przysięgły Języka Niemieckiego</title>
 </head>
@@ -19,10 +21,11 @@
 <div class="container interior">
 
     <h1>KUBA</h1>
+    <spring:message code="home" />: <strong>fdsfsdg</strong>
     <div>
                         asdfaadf
     asdf<br>asdf<br>asdf<br>asdf<br>asdf<br>asdf<br>
-    asdf
+    asdf            Ą            łówga
     </div>
 </div>
 
