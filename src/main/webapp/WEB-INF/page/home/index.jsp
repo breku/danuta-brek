@@ -14,10 +14,16 @@
 </head>
 <body>
 
+
 <%@include file="../navigation/navbar.jsp" %>
+<div class="container interior">
 
-<div class="container">
-
+    <h1>KUBA</h1>
+    <div>
+                        asdfaadf
+    asdf<br>asdf<br>asdf<br>asdf<br>asdf<br>asdf<br>
+    asdf
+    </div>
 </div>
 
 </body>

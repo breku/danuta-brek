@@ -1,3 +1,4 @@
+
 <div class="navbar navbar-fixed-top">
     <div class="navbar-inner">
         <div class="container">
@@ -6,10 +7,10 @@
             <div class="nav-collapse">
                 <ul class="nav">
                     <li>
-                        <a href="#">Home</a>
+                        <a href="#">Oferta</a>
                     </li>
                     <li>
-                        <a href="#">Home</a>
+                        <a href="#">Kontakt</a>
                     </li>
                 </ul>
             </div>
