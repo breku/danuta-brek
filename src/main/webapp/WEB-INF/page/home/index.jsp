@@ -8,9 +8,17 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
 <head>
-    <title>asdfasdf</title>
+    <%@include file="../header/includes.jsp" %>
+
+    <title>Danuta Bręk - Tłumacz Przysięgły Języka Niemieckiego</title>
 </head>
 <body>
-                asdfasdfasdfasdf
+
+<%@include file="../navigation/navbar.jsp" %>
+
+<div class="container">
+
+</div>
+
 </body>
 </html>
