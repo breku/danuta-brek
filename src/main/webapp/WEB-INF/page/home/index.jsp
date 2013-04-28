@@ -25,6 +25,7 @@
 
     <spring:message code="index.body" />
 
+    <hr>
 </div>
 
 </body>

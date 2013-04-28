@@ -19,6 +19,8 @@
 
     <p><spring:message code="offer.body.price"/></p>
     <p><spring:message code="offer.body.ready"/></p>
+    <hr>
+
 </div>
 
 </body>
