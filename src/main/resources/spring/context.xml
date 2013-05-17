@@ -10,13 +10,19 @@
     <import resource="interceptorContext.xml" />
 
     <!--Tell the servlet where to look for annotated methods-->
-    <context:component-scan base-package="com.brekol"/>
+    <context:component-scan base-package="com.brekol" />
 
     <!--Enables many annotations and searches for @Controller annotated methods etc.. -->
     <context:annotation-config />
 
     <!--JSR-303 (Bean validation) support will be detected on classpath and enabled automatically-->
     <mvc:annotation-driven/>
+
+    <mvc:resources mapping="/favicon.ico" location="/img/favicon.ico" order="0"/>
+    <!--<mvc:resources mapping="/robots.txt" location="/txt/robots.txt" order="0"/>-->
+
+
+
 
 
 </beans>
