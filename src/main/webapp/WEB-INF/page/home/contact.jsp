@@ -27,7 +27,7 @@
 
             <address>
                 <strong>E-Mail</strong><br>
-                <a href="mailto:danutabrek@op.pl">danutabrek@op.pl</a>
+                <a href="mailto:dankabrek@gmail.com">dankabrek@gmail.com</a>
             </address>
         </div>
 
