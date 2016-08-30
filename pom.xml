@@ -9,7 +9,10 @@
     <url>http://maven.apache.org</url>
 
 
-    <properties>
+    <properties>  <!-- App Engine Standard currently requires Java 7 -->
+        <maven.compiler.target>1.7</maven.compiler.target>
+        <maven.compiler.source>1.7</maven.compiler.source>
+
         <junit.version>4.11</junit.version>
         <jstl.version>1.2</jstl.version>
         <spring.version>3.2.1.RELEASE</spring.version>
@@ -126,8 +129,8 @@
             <plugin>
                 <artifactId>maven-compiler-plugin</artifactId>
                 <configuration>
-                    <source>1.6</source>
-                    <target>1.6</target>
+                    <source>${maven.compiler.source}</source>
+                    <target>${maven.compiler.target}</target>
                     <encoding>UTF-8</encoding>
                 </configuration>
             </plugin>
@@ -140,6 +143,11 @@
                     <webDefaultXml>src/main/resources/jetty/webdefault.xml</webDefaultXml>
                     <contextPath>/</contextPath>
                 </configuration>
+            </plugin>
+            <plugin>
+                <groupId>com.google.appengine</groupId>
+                <artifactId>appengine-maven-plugin</artifactId>
+                <version>1.9.42</version>
             </plugin>
 
         </plugins>
