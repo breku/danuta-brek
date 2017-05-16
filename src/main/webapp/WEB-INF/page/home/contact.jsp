@@ -20,7 +20,7 @@
         <div class="pull-left">
             <address>
                 <strong>Danuta Bręk</strong><br>
-                Dolne Miasto 18/1<br>
+                Parkowa 7/3 <br>
                 78-600 Wałcz<br>
                 <spring:message code="contact.phone"/> +48 607-654-091
             </address>
@@ -32,9 +32,9 @@
         </div>
 
         <div class="pull-right">
-            <iframe width="600" height="350" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"src="https://maps.google.pl/maps?f=q&amp;source=s_q&amp;hl=pl&amp;geocode=&amp;q=Br%C4%99k+Danuta.+T%C5%82umacz+przysi%C4%99g%C5%82y+j%C4%99z.+niemieckiego,+Osiedle+Dolne+Miasto+18,+Gmina+Wa%C5%82cz&amp;aq=0&amp;oq=Br%C4%99k+Danuta.+T%C5%82umacz+przysi%C4%99g%C5%82y+j%C4%99z.+niemieckiego'&amp;sll=53.262935,16.465126&amp;sspn=0.0036,0.010568&amp;ie=UTF8&amp;hq=Br%C4%99k+Danuta.+T%C5%82umacz+przysi%C4%99g%C5%82y+j%C4%99z.+niemieckiego,&amp;hnear=Osiedle+Dolne+Miasto+18,+Wa%C5%82cz,+wa%C5%82ecki,+zachodniopomorskie&amp;ll=53.262821,16.465071&amp;spn=0.006295,0.006295&amp;t=m&amp;output=embed"></iframe>
+            <iframe width="600" height="350" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d1418.6719788914263!2d16.48159729625276!3d53.27318986645814!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47015da495837d6d%3A0x390eb7d199b9eac2!2zQnLEmWsgRGFudXRhLiBUxYJ1bWFjeiBwcnp5c2nEmWfFgnkgasSZei4gbmllbWllY2tpZWdv!5e0!3m2!1sen!2spl!4v1494954126938"></iframe>
             <br/>
-            <small><a href="https://maps.google.pl/maps?f=q&amp;source=embed&amp;hl=pl&amp;geocode=&amp;q=Br%C4%99k+Danuta.+T%C5%82umacz+przysi%C4%99g%C5%82y+j%C4%99z.+niemieckiego,+Osiedle+Dolne+Miasto+18,+Gmina+Wa%C5%82cz&amp;aq=0&amp;oq=Br%C4%99k+Danuta.+T%C5%82umacz+przysi%C4%99g%C5%82y+j%C4%99z.+niemieckiego'&amp;sll=53.262935,16.465126&amp;sspn=0.0036,0.010568&amp;ie=UTF8&amp;hq=Br%C4%99k+Danuta.+T%C5%82umacz+przysi%C4%99g%C5%82y+j%C4%99z.+niemieckiego,&amp;hnear=Osiedle+Dolne+Miasto+18,+Wa%C5%82cz,+wa%C5%82ecki,+zachodniopomorskie&amp;ll=53.262821,16.465071&amp;spn=0.006295,0.006295&amp;t=m"style="color:#0000FF;text-align:left"><spring:message code="contact.map.enlarge" /></a></small>
+            <small><a href="https://goo.gl/maps/7KdKbMnCWu22"style="color:#0000FF;text-align:left"><spring:message code="contact.map.enlarge" /></a></small>
         </div>
     </div>
 
