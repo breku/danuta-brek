@@ -3,3 +3,7 @@ mvn appengine:devserver
 
 Aby zrobić deploy nowej wersji
 mvn appengine:update
+
+Potem trzeba ustawić wersję na tę co zrobilismy update
+https://console.cloud.google.com/appengine/
+W konsoli w split traffic robimy 100% na nową wersję
