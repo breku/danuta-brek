@@ -1,2 +1,5 @@
 Aby uruchomić lokalnie
 mvn appengine:devserver
+
+Aby zrobić deploy nowej wersji
+mvn appengine:update
