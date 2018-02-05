@@ -1,0 +1,37 @@
+@import "variables";
+
+.jb-footer-separation {
+	height: $footer-separation-height;
+	background-color: $footer-separation-color;
+	width: 100%;
+}
+
+.jb-footer-text {
+
+	line-height: 1.6;
+	font-size: 18px;
+	color: $text-color;
+
+	hr {
+		max-width: 400px;
+		margin: 0;
+		margin-top: 10px;
+		margin-bottom: 10px;
+	}
+}
+
+.jb-accent {
+	color: $accent-color;
+}
+
+.jb-footer-wrapper {
+	display: flex;
+	margin: 40px auto;
+	max-width: 1000px;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+.jb-footer-map {
+	margin-left: 40px;
+}
